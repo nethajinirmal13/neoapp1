@@ -13,8 +13,8 @@ from flask_migrate import Migrate
 
 
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://nirmal:Nethaji123@nethaji.database.windows.net/nirmal'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/neth'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://nirmal:Nethaji123@nethaji.database.windows.net/nirmal'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@localhost/neth'
 app.config['SECRET_KEY'] = '9OLWxND4o83j4K4iuopO'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
