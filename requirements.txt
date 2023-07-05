@@ -1,0 +1,6 @@
+Flask
+Flask-Login
+flask_sqlalchemy
+werkzeug
+requests
+pyodbc
