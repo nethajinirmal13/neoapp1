@@ -4,3 +4,6 @@ flask_sqlalchemy
 werkzeug
 requests
 pyodbc
+pymssql
+pymysql
+Flask-Migrate
